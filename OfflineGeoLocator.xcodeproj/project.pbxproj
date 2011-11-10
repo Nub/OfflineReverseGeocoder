@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BA3EA9B146481E200965714 /* OfflineReverseGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3EA9A146481E200965714 /* OfflineReverseGeocoder.m */; };
+		4BA3EA9D1464834700965714 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA3EA9C1464834700965714 /* CoreLocation.framework */; };
+		4BAFAF82146B25F100575E7E /* ORGsubset.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BAFAF81146B25F100575E7E /* ORGsubset.json */; };
+		4BAFAF85146B282000575E7E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFAF84146B282000575E7E /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4BF164C9146473DE00EC41DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF164C8146473DE00EC41DD /* UIKit.framework */; };
+		4BF164CB146473DE00EC41DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF164CA146473DE00EC41DD /* Foundation.framework */; };
+		4BF164CD146473DE00EC41DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF164CC146473DE00EC41DD /* CoreGraphics.framework */; };
+		4BF164D3146473DE00EC41DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BF164D1146473DE00EC41DD /* InfoPlist.strings */; };
+		4BF164D5146473DE00EC41DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF164D4146473DE00EC41DD /* main.m */; };
+		4BF164D9146473DE00EC41DD /* OGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF164D8146473DE00EC41DD /* OGLAppDelegate.m */; };
+		4BF164DC146473DE00EC41DD /* OGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF164DB146473DE00EC41DD /* OGLViewController.m */; };
+		4BF164DF146473DE00EC41DD /* OGLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF164DD146473DE00EC41DD /* OGLViewController_iPhone.xib */; };
+		4BF164E2146473DE00EC41DD /* OGLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF164E0146473DE00EC41DD /* OGLViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BA3EA99146481E200965714 /* OfflineReverseGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OfflineReverseGeocoder.h; path = Classes/OfflineReverseGeocoder.h; sourceTree = "<group>"; };
+		4BA3EA9A146481E200965714 /* OfflineReverseGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OfflineReverseGeocoder.m; path = Classes/OfflineReverseGeocoder.m; sourceTree = "<group>"; };
+		4BA3EA9C1464834700965714 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4BAFAF81146B25F100575E7E /* ORGsubset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ORGsubset.json; sourceTree = "<group>"; };
+		4BAFAF83146B282000575E7E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4BAFAF84146B282000575E7E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4BF164C4146473DE00EC41DD /* OfflineGeoLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineGeoLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF164C8146473DE00EC41DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4BF164CA146473DE00EC41DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4BF164CC146473DE00EC41DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BF164D0146473DE00EC41DD /* OfflineGeoLocator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OfflineGeoLocator-Info.plist"; sourceTree = "<group>"; };
+		4BF164D2146473DE00EC41DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BF164D4146473DE00EC41DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BF164D6146473DE00EC41DD /* OfflineGeoLocator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfflineGeoLocator-Prefix.pch"; sourceTree = "<group>"; };
+		4BF164D7146473DE00EC41DD /* OGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGLAppDelegate.h; sourceTree = "<group>"; };
+		4BF164D8146473DE00EC41DD /* OGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGLAppDelegate.m; sourceTree = "<group>"; };
+		4BF164DA146473DE00EC41DD /* OGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGLViewController.h; sourceTree = "<group>"; };
+		4BF164DB146473DE00EC41DD /* OGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGLViewController.m; sourceTree = "<group>"; };
+		4BF164DE146473DE00EC41DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OGLViewController_iPhone.xib; sourceTree = "<group>"; };
+		4BF164E1146473DE00EC41DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OGLViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF164C1146473DE00EC41DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA3EA9D1464834700965714 /* CoreLocation.framework in Frameworks */,
+				4BF164C9146473DE00EC41DD /* UIKit.framework in Frameworks */,
+				4BF164CB146473DE00EC41DD /* Foundation.framework in Frameworks */,
+				4BF164CD146473DE00EC41DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BA3EA971464819A00965714 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BA3EA99146481E200965714 /* OfflineReverseGeocoder.h */,
+				4BA3EA9A146481E200965714 /* OfflineReverseGeocoder.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4BF164B9146473DE00EC41DD = {
+			isa = PBXGroup;
+			children = (
+				4BF164CE146473DE00EC41DD /* OfflineGeoLocator */,
+				4BF164C7146473DE00EC41DD /* Frameworks */,
+				4BF164C5146473DE00EC41DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF164C5146473DE00EC41DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF164C4146473DE00EC41DD /* OfflineGeoLocator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF164C7146473DE00EC41DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BA3EA9C1464834700965714 /* CoreLocation.framework */,
+				4BF164C8146473DE00EC41DD /* UIKit.framework */,
+				4BF164CA146473DE00EC41DD /* Foundation.framework */,
+				4BF164CC146473DE00EC41DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BF164CE146473DE00EC41DD /* OfflineGeoLocator */ = {
+			isa = PBXGroup;
+			children = (
+				4BAFAF83146B282000575E7E /* JSONKit.h */,
+				4BAFAF84146B282000575E7E /* JSONKit.m */,
+				4BA3EA971464819A00965714 /* Classes */,
+				4BF164D7146473DE00EC41DD /* OGLAppDelegate.h */,
+				4BF164D8146473DE00EC41DD /* OGLAppDelegate.m */,
+				4BF164DA146473DE00EC41DD /* OGLViewController.h */,
+				4BF164DB146473DE00EC41DD /* OGLViewController.m */,
+				4BF164DD146473DE00EC41DD /* OGLViewController_iPhone.xib */,
+				4BF164E0146473DE00EC41DD /* OGLViewController_iPad.xib */,
+				4BF164CF146473DE00EC41DD /* Supporting Files */,
+			);
+			path = OfflineGeoLocator;
+			sourceTree = "<group>";
+		};
+		4BF164CF146473DE00EC41DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BAFAF81146B25F100575E7E /* ORGsubset.json */,
+				4BF164D0146473DE00EC41DD /* OfflineGeoLocator-Info.plist */,
+				4BF164D1146473DE00EC41DD /* InfoPlist.strings */,
+				4BF164D4146473DE00EC41DD /* main.m */,
+				4BF164D6146473DE00EC41DD /* OfflineGeoLocator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF164C3146473DE00EC41DD /* OfflineGeoLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF164E5146473DE00EC41DD /* Build configuration list for PBXNativeTarget "OfflineGeoLocator" */;
+			buildPhases = (
+				4BF164C0146473DE00EC41DD /* Sources */,
+				4BF164C1146473DE00EC41DD /* Frameworks */,
+				4BF164C2146473DE00EC41DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfflineGeoLocator;
+			productName = OfflineGeoLocator;
+			productReference = 4BF164C4146473DE00EC41DD /* OfflineGeoLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF164BB146473DE00EC41DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Zachry Thayer";
+			};
+			buildConfigurationList = 4BF164BE146473DE00EC41DD /* Build configuration list for PBXProject "OfflineGeoLocator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4BF164B9146473DE00EC41DD;
+			productRefGroup = 4BF164C5146473DE00EC41DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF164C3146473DE00EC41DD /* OfflineGeoLocator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF164C2146473DE00EC41DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF164D3146473DE00EC41DD /* InfoPlist.strings in Resources */,
+				4BF164DF146473DE00EC41DD /* OGLViewController_iPhone.xib in Resources */,
+				4BF164E2146473DE00EC41DD /* OGLViewController_iPad.xib in Resources */,
+				4BAFAF82146B25F100575E7E /* ORGsubset.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF164C0146473DE00EC41DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF164D5146473DE00EC41DD /* main.m in Sources */,
+				4BF164D9146473DE00EC41DD /* OGLAppDelegate.m in Sources */,
+				4BF164DC146473DE00EC41DD /* OGLViewController.m in Sources */,
+				4BA3EA9B146481E200965714 /* OfflineReverseGeocoder.m in Sources */,
+				4BAFAF85146B282000575E7E /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BF164D1146473DE00EC41DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF164D2146473DE00EC41DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BF164DD146473DE00EC41DD /* OGLViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF164DE146473DE00EC41DD /* en */,
+			);
+			name = OGLViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4BF164E0146473DE00EC41DD /* OGLViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF164E1146473DE00EC41DD /* en */,
+			);
+			name = OGLViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF164E3146473DE00EC41DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF164E4146473DE00EC41DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF164E6146473DE00EC41DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineGeoLocator/OfflineGeoLocator-Prefix.pch";
+				INFOPLIST_FILE = "OfflineGeoLocator/OfflineGeoLocator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4BF164E7146473DE00EC41DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineGeoLocator/OfflineGeoLocator-Prefix.pch";
+				INFOPLIST_FILE = "OfflineGeoLocator/OfflineGeoLocator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF164BE146473DE00EC41DD /* Build configuration list for PBXProject "OfflineGeoLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF164E3146473DE00EC41DD /* Debug */,
+				4BF164E4146473DE00EC41DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF164E5146473DE00EC41DD /* Build configuration list for PBXNativeTarget "OfflineGeoLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF164E6146473DE00EC41DD /* Debug */,
+				4BF164E7146473DE00EC41DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF164BB146473DE00EC41DD /* Project object */;
+}
